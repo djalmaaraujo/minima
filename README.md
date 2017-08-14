@@ -8,21 +8,21 @@
   - [ ] Regular Size
   - [ ] Large Size
 
-- [ ] Box/Panel
-  - [ ] Simple
-  - [ ] Box+Header
-  - [ ] Box+Footer
+- [x] Blockquote
 
-- [ ] Card
+- [x] Card
+  - [x] Simple
+  - [x] Cards+Header
+  - [ ] Cards+Footer
   - [ ] Simple (Image Full+title+text)
   - [ ] With small font footer
 
-- [ ] Colors/Typography
-  - [ ] Font
+- [x] Colors/Typography
+  - [x] Font
   - [ ] Links
-  - [ ] Base Colors
-  - [ ] Paragraph
-  - [ ] Titles
+  - [x] Base Colors
+  - [x] Paragraph
+  - [x] Titles
 
 - [ ] Warnings
   - [ ] Simple
