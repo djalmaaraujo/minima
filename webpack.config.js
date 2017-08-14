@@ -13,12 +13,12 @@ module.exports = {
 
   output: {
     path: __dirname,
-    filename: 'js/app.js'
+    filename: 'build/minima.js'
   },
 
   plugins: [
     // Specify the resulting CSS filename
-    new ExtractTextPlugin('css/app.css'),
+    new ExtractTextPlugin('build/minima.css'),
 
     // Stylelint plugin
     new styleLintPlugin({

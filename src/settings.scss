@@ -1,0 +1,33 @@
+// Colors - Main
+$color-primary: #000;
+$color-bad: #e21836;
+$color-ok: #35cb4b;
+$color-warn: #fdbe41;
+
+// Colors - Utilities
+$color-text: #606c76;
+$color-border: #d1d1d1;
+$color-highlight: #f4f5f6;
+$color-light: #fff;
+
+// Sizes
+$sz-sm: 10px;
+$sz-md: 20px;
+$sz-lg: 30px;
+
+// Reset
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 62.5%;
+  line-height: 1.15;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+$font-weight-default: 300;
+$font-weight-bold: 700;

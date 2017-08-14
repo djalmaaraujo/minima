@@ -1,0 +1,51 @@
+// Components - Card
+.card {
+  border: 1px solid $color-border;
+  display: block;
+  padding: $sz-md;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card__header {
+  background-color: $color-highlight;
+  border-bottom: 1px solid $color-border;
+  margin: -$sz-md;
+  padding: $sz-md;
+  position: relative;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+}
+
+.card__content {
+  padding-top: $sz-md;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card__header--inverted {
+  background-color: $color-primary;
+  border-bottom: 1px solid $color-primary;
+  margin: -($sz-md + 1);
+  padding: ($sz-md + 1);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-light;
+  }
+}
