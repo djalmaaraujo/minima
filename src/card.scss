@@ -39,22 +39,6 @@
   }
 }
 
-.card__header--inverted {
-  background-color: color(primary);
-  border-bottom: 1px solid color(primary);
-  margin: -($sz-md + .1rem);
-  padding: ($sz-md + .1rem);
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: color(light);
-  }
-}
-
 .card__footer {
   background-color: color(highlight);
   border-top: 1px solid color(border);
@@ -90,6 +74,24 @@
 
 // Card Colored
 @each $name, $color in $card-colors {
+  .card--#{$name} {
+    .card__header {
+      background-color: color($name);
+      border-color: color($name);
+      margin: -($sz-md + .1rem);
+      padding: ($sz-md + .1rem);
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: color(light);
+      }
+    }
+  }
+
   .card__text--#{$name} {
     background-color: color($name);
     border-color: color($name);

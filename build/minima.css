@@ -251,22 +251,6 @@ button {
   margin-bottom: 0;
 }
 
-.card__header--inverted {
-  background-color: #222;
-  border-bottom: 1px solid #222;
-  margin: -2.6rem;
-  padding: 2.6rem;
-}
-
-.card__header--inverted h1,
-.card__header--inverted h2,
-.card__header--inverted h3,
-.card__header--inverted h4,
-.card__header--inverted h5,
-.card__header--inverted h6 {
-  color: #fff;
-}
-
 .card__footer {
   background-color: #f4f5f6;
   border-top: 1px solid #d1d1d1;
@@ -305,6 +289,22 @@ button {
   box-shadow: none;
 }
 
+.card--primary .card__header {
+  background-color: #222;
+  border-color: #222;
+  margin: -2.6rem;
+  padding: 2.6rem;
+}
+
+.card--primary .card__header h1,
+.card--primary .card__header h2,
+.card--primary .card__header h3,
+.card--primary .card__header h4,
+.card--primary .card__header h5,
+.card--primary .card__header h6 {
+  color: #fff;
+}
+
 .card__text--primary {
   background-color: #222;
   border-color: #222;
@@ -318,6 +318,22 @@ button {
 .card__text--primary h5,
 .card__text--primary h6,
 .card__text--primary p {
+  color: #fff;
+}
+
+.card--bad .card__header {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  margin: -2.6rem;
+  padding: 2.6rem;
+}
+
+.card--bad .card__header h1,
+.card--bad .card__header h2,
+.card--bad .card__header h3,
+.card--bad .card__header h4,
+.card--bad .card__header h5,
+.card--bad .card__header h6 {
   color: #fff;
 }
 
@@ -337,6 +353,22 @@ button {
   color: #fff;
 }
 
+.card--ok .card__header {
+  background-color: #28a745;
+  border-color: #28a745;
+  margin: -2.6rem;
+  padding: 2.6rem;
+}
+
+.card--ok .card__header h1,
+.card--ok .card__header h2,
+.card--ok .card__header h3,
+.card--ok .card__header h4,
+.card--ok .card__header h5,
+.card--ok .card__header h6 {
+  color: #fff;
+}
+
 .card__text--ok {
   background-color: #28a745;
   border-color: #28a745;
@@ -353,6 +385,22 @@ button {
   color: #fff;
 }
 
+.card--warn .card__header {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  margin: -2.6rem;
+  padding: 2.6rem;
+}
+
+.card--warn .card__header h1,
+.card--warn .card__header h2,
+.card--warn .card__header h3,
+.card--warn .card__header h4,
+.card--warn .card__header h5,
+.card--warn .card__header h6 {
+  color: #fff;
+}
+
 .card__text--warn {
   background-color: #ffc107;
   border-color: #ffc107;
@@ -366,6 +414,22 @@ button {
 .card__text--warn h5,
 .card__text--warn h6,
 .card__text--warn p {
+  color: #fff;
+}
+
+.card--inverted .card__header {
+  background-color: #000;
+  border-color: #000;
+  margin: -2.6rem;
+  padding: 2.6rem;
+}
+
+.card--inverted .card__header h1,
+.card--inverted .card__header h2,
+.card--inverted .card__header h3,
+.card--inverted .card__header h4,
+.card--inverted .card__header h5,
+.card--inverted .card__header h6 {
   color: #fff;
 }
 
