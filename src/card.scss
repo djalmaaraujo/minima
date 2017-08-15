@@ -1,5 +1,5 @@
 @mixin card-shadow() {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+  box-shadow: 0 .5rem 1.7rem rgba(0, 0, 0, .08);
 }
 
 // Components - Card
@@ -46,8 +46,33 @@
   padding: $sz-md;
 }
 
+.card__mediaContent {
+  padding: $sz-md $sz-lg $sz-lg $sz-lg;
+}
+
+.card__mediaObject {
+  margin: -.1rem;
+  padding: 0;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.card__media {
+  border-color: transparent;
+  padding: 0;
+
+  .card__mediaContent:first-child {
+    padding: $sz-lg;
+  }
+
+  .card__mediaObject:last-child {
+    margin-bottom: -1rem;
+  }
+}
+
 .card__text {
-  @include card-shadow;
   border-color: transparent;
   padding: $sz-lg;
 
@@ -60,7 +85,17 @@
     font-size: 3rem;
     font-weight: $font-weight-default;
     margin-bottom: 3rem;
+  }
+}
 
+.card__text,
+.card__media {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     &:last-child {
       margin-bottom: 0;
     }
@@ -109,6 +144,6 @@
   }
 }
 
-.card__text--shadow {
+.card--shadow {
   @include card-shadow;
 }
