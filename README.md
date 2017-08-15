@@ -14,8 +14,8 @@
 - [x] Card
   - [x] Simple
   - [x] Cards+Header
-  - [ ] Simple (Image Full+title+text)
-  - [ ] With small font footer
+  - [x] Text Cards
+  - [ ] Image Cards
 
 - [x] Colors/Typography
   - [x] Font

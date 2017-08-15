@@ -203,9 +203,22 @@ button {
   color: #ffc107;
 }
 
+.button--inverted {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.button--outline.button--inverted {
+  background-color: transparent;
+  border-color: #000;
+  color: #000;
+}
+
 .card {
-  border: 1px solid #d1d1d1;
+  border: 0.1rem solid #d1d1d1;
   display: block;
+  margin-bottom: 1rem;
   padding: 2.5rem;
 }
 
@@ -259,6 +272,121 @@ button {
   border-top: 1px solid #d1d1d1;
   margin: -2.5rem;
   padding: 2.5rem;
+}
+
+.card__text {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-color: transparent;
+  padding: 3.75rem;
+}
+
+.card__text h1,
+.card__text h2,
+.card__text h3,
+.card__text h4,
+.card__text h5,
+.card__text h6 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.card__text h1:last-child,
+.card__text h2:last-child,
+.card__text h3:last-child,
+.card__text h4:last-child,
+.card__text h5:last-child,
+.card__text h6:last-child {
+  margin-bottom: 0;
+}
+
+.card__text--primary,
+.card__text--inverted {
+  box-shadow: none;
+}
+
+.card__text--primary {
+  background-color: #222;
+  border-color: #222;
+  color: #fff;
+}
+
+.card__text--primary h1,
+.card__text--primary h2,
+.card__text--primary h3,
+.card__text--primary h4,
+.card__text--primary h5,
+.card__text--primary h6,
+.card__text--primary p {
+  color: #fff;
+}
+
+.card__text--bad {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+.card__text--bad h1,
+.card__text--bad h2,
+.card__text--bad h3,
+.card__text--bad h4,
+.card__text--bad h5,
+.card__text--bad h6,
+.card__text--bad p {
+  color: #fff;
+}
+
+.card__text--ok {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.card__text--ok h1,
+.card__text--ok h2,
+.card__text--ok h3,
+.card__text--ok h4,
+.card__text--ok h5,
+.card__text--ok h6,
+.card__text--ok p {
+  color: #fff;
+}
+
+.card__text--warn {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #fff;
+}
+
+.card__text--warn h1,
+.card__text--warn h2,
+.card__text--warn h3,
+.card__text--warn h4,
+.card__text--warn h5,
+.card__text--warn h6,
+.card__text--warn p {
+  color: #fff;
+}
+
+.card__text--inverted {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.card__text--inverted h1,
+.card__text--inverted h2,
+.card__text--inverted h3,
+.card__text--inverted h4,
+.card__text--inverted h5,
+.card__text--inverted h6,
+.card__text--inverted p {
+  color: #fff;
+}
+
+.card__text--shadow {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
 /*# sourceMappingURL=minima.css.map*/

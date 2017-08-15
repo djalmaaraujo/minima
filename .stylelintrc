@@ -84,7 +84,7 @@
     "length-zero-no-unit": true,
     "max-empty-lines": 1,
     "max-line-length": 80,
-    "max-nesting-depth": 1,
+    "max-nesting-depth": 2,
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-name-no-vendor-prefix": true,

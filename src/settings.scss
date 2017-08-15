@@ -9,14 +9,18 @@ $colors: (
   "highlight": #f4f5f6,
   "light": #fff,
   "link": #383838,
+  "inverted": #000,
 );
 
 $button-colors: (
   "primary": map-get($colors, "primary"),
   "bad": map-get($colors, "bad"),
   "ok": map-get($colors, "ok"),
-  "warn": map-get($colors, "warn")
+  "warn": map-get($colors, "warn"),
+  "inverted": map-get($colors, "inverted"),
 );
+
+$card-colors: $button-colors;
 
 @function color($key) {
   @return map-get($colors, $key);
