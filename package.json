@@ -1,7 +1,7 @@
 {
-  "name": "webpack-es6-sass-setup",
+  "name": "minima",
   "version": "0.0.1",
-  "description": "A sample setup for Webpack with ES6 and Sass",
+  "description": "Another UI Toolkit. At least, simple.",
   "main": "webpack.config.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.js --port 3001 --hot --inline",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/akikoo/webpack-es6-sass-setup.git"
+    "url": "git://github.com/djalmaaraujo/minima.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
@@ -20,7 +20,6 @@
     "babel-loader": "^5.3.2",
     "css-loader": "^0.21.0",
     "cssnano": "^3.10.0",
-    "es6-promise": "^3.0.2",
     "node-sass": "^3.3.3",
     "postcss-loader": "^0.7.0",
     "sass-loader": "^3.0.0",
@@ -30,15 +29,7 @@
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
-  "keywords": [
-    "babel",
-    "boilerplate",
-    "es6",
-    "sass",
-    "starter-kit",
-    "workflow",
-    "webpack"
-  ],
+  "keywords": [],
   "dependencies": {
     "extract-text-webpack-plugin": "^1.0.1"
   }

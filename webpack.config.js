@@ -7,8 +7,6 @@ var cssnano = require('cssnano');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var styleLintPlugin = require('stylelint-webpack-plugin');
 
-require('es6-promise').polyfill();
-
 module.exports = {
   entry: './src/main.js',
 
