@@ -12,23 +12,23 @@ blockquote {
 }
 
 .blockquote--primary {
-  border-left-color: $color-primary;
+  border-left-color: color(primary);
 }
 
 .backquote--bg {
-  background-color: $color-highlight;
+  background-color: color(highlight);
 }
 
 .blockquote--inverted {
-  background-color: $color-primary;
-  border-left-color: $color-light;
-  color: $color-light;
+  background-color: color(primary);
+  border-left-color: color(light);
+  color: color(light);
 
   > p {
-    color: $color-light;
+    color: color(light);
   }
 
   code {
-    color: $color-primary;
+    color: color(primary);
   }
 }

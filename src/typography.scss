@@ -2,13 +2,14 @@
 body {
   font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1.6em;
+  font-weight: $font-weight-default;
   letter-spacing: .01em;
   line-height: 1.6;
   margin: 0;
 }
 
 p {
-  color: $color-text;
+  color: color(text);
 }
 
 h1,
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-primary;
+  color: color(primary);
   font-weight: $font-weight-bold;
   margin-bottom: 2rem;
   margin-top: 0;
@@ -55,4 +56,14 @@ h6 {
   font-size: 1.6rem;
   letter-spacing: 0;
   line-height: 1.4;
+}
+
+a {
+  color: color(link);
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    color: color(primary);
+  }
 }

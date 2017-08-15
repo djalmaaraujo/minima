@@ -2,9 +2,10 @@
 
 ## Components
 
-- [ ] Buttons
-  - [ ] Simple
-  - [ ] Colored
+- [x] Buttons
+  - [x] Regular
+  - [x] Outline
+  - [x] Colored
   - [ ] Regular Size
   - [ ] Large Size
 
@@ -13,13 +14,12 @@
 - [x] Card
   - [x] Simple
   - [x] Cards+Header
-  - [ ] Cards+Footer
   - [ ] Simple (Image Full+title+text)
   - [ ] With small font footer
 
 - [x] Colors/Typography
   - [x] Font
-  - [ ] Links
+  - [x] Links
   - [x] Base Colors
   - [x] Paragraph
   - [x] Titles
