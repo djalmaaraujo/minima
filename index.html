@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="docs.css" />
 </head>
 <body>
+  <a href="https://github.com/djalmaaraujo/minima"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+
   <div class="header"><h1>minima.</h1></div>
 
   <div class="container">
@@ -93,21 +95,66 @@
       </div>
     </section>
 
-    <section class="card card--example">
-      <header class="card__header card__header--inverted">
-        <h4>The inverted card header. Shocking.</h4>
+    <section class="card card--primary card--example">
+      <header class="card__header">
+        <h4>The primary card header. Shocking.</h4>
       </header>
 
       <div class="card__content">
-        <p>This is a card example with a <code>.card__header</code> element and <code>.card__header--inverted</code> modifier. Useful for show some information with more highlight.</p>
+        <p>This is a card example with a <code>.card__header</code> element and <code>.card--primary</code> modifier. Useful for show some information with more highlight.</p>
 
         <a href="#" class="button button--primary">Run to the hills</a>
         <a href="#" class="button">Cancel</a>
       </div>
     </section>
 
-    <h4 class="mtl">Text Cards</h4>
+    <section class="card card--inverted card--example">
+      <header class="card__header">
+        <h4>The inverted card header. Shocking.</h4>
+      </header>
 
+      <div class="card__content">
+        <p>This is a card example with a <code>.card__header</code> element and <code>.card--inverted</code> modifier. Useful for show some information with more highlight.</p>
+
+        <a href="#" class="button button--inverted">Run to the hills</a>
+        <a href="#" class="button">Cancel</a>
+      </div>
+    </section>
+
+    <h4 class="mtl">Regular Colored Cards</h4>
+    <div class="columns">
+      <section class="card card--ok card--exampleSpace">
+        <header class="card__header">
+          <h4>The .card--ok</h4>
+        </header>
+
+        <div class="card__content">
+          <p>Should I stay or should I go?</p>
+        </div>
+      </section>
+
+      <section class="card card--bad card--exampleSpace">
+        <header class="card__header">
+          <h4>The .card--bad</h4>
+        </header>
+
+        <div class="card__content">
+          <p>Should I stay or should I go?</p>
+        </div>
+      </section>
+
+      <section class="card card--warn card--exampleSpace">
+        <header class="card__header">
+          <h4>The .card--warn</h4>
+        </header>
+
+        <div class="card__content">
+          <p>Should I stay or should I go?</p>
+        </div>
+      </section>
+    </div>
+
+    <h4 class="mtl">Text Cards</h4>
     <div class="columns">
       <section class="card card__text card--example">
         <h4>Simple</h4>
