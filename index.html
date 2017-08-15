@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+  <title>minima.docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500,500i,700,700i" rel="stylesheet">
+
+  <!-- CSS Reset -->
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+
+  <link rel="stylesheet" href="build/minima.css" />
+  <link rel="stylesheet" href="docs.css" />
+</head>
+<body>
+  <div class="header"><h1>minima.</h1></div>
+
+  <div class="container">
+    <div>
+      <h3>Typography</h3>
+      <p>We use <code>rem</code> unit based on the <code>html</code> font-size. 1.6 is the default line-height. We are using <code>Roboto</code> font-family, provided by <a href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto">Google Fonts.</a></p>
+
+      <h1>Heading<small> <code>h1</code> 4.6rem (46px)</small></h1>
+      <h2>Heading<small> <code>h2</code> 3.6rem (36px)</small></h2>
+      <h3>Heading<small> <code>h3</code> 2.8rem (28px)</small></h3>
+      <h4>Heading<small> <code>h4</code> 2.2rem (22px)</small></h4>
+      <h5>Heading<small> <code>h5</code> 1.8rem (18px)</small></h5>
+      <h6>Heading<small> <code>h6</code> 1.6rem (16px)</small></h6>
+    </div>
+  </div>
+
+  <div class="container">
+    <div>
+      <h3>Blockquote</h3>
+
+      <p>Make quotes from somewhere with blockquote.</p>
+
+      <blockquote><p><em>Hello dear. This is our blockquote element</em></p></blockquote>
+      <blockquote class="blockquote--primary"><p><em>Hello dear. This is our blockquote element with the <code>.blockquote--primary</code> modifier.</em></p></blockquote>
+      <blockquote class="backquote--bg"><p><em>Hello dear. This is our blockquote element with the <code>.backquote--bg</code> background modifier for more highlight.</em></p></blockquote>
+      <blockquote class="blockquote--primary backquote--bg"><p><em>Hello dear. This is our blockquote element with the <code>.blockquote--primary</code> modifier and the <code>.backquote--bg</code> background modifier for more highlight.</em></p></blockquote>
+      <blockquote class="blockquote--inverted"><p><em>Hello dear. This is our blockquote element with the <code>.blockquote--inverted</code> modifier.</em> Everything should be black and white.</p></blockquote>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3>Buttons</h3>
+    <p>Finally, buttons. Enjoy it.</p>
+
+    <h4 class="mtl">Regular</h4>
+
+    <button type="button" class="button">Simple</button>
+    <button type="button" class="button button--primary">Primary</button>
+    <button type="button" class="button button--link">Link</button>
+    <button type="button" class="button button--ok">Success</button>
+    <button type="button" class="button button--bad">Danger</button>
+    <button type="button" class="button button--warn">Warning</button>
+    <button type="button" class="button button--inverted">Inverted</button>
+
+    <h4 class="mtl">Outline</h4>
+
+    <button type="button" class="button button--outline button--primary">Primary</button>
+    <button type="button" class="button button--outline button--link">Link</button>
+    <button type="button" class="button button--outline button--ok">Success</button>
+    <button type="button" class="button button--outline button--bad">Danger</button>
+    <button type="button" class="button button--outline button--warn">Warning</button>
+  </div>
+
+  <div class="container">
+    <h3>Cards</h3>
+    <p>Put some content. Use <code>.card</code> to organize your layouts.</p>
+
+    <h4 class="mtl">Regular Cards</h4>
+
+    <section class="card card--example">
+      <h4><strong>Simple card</strong></h4>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et <strong>dolore magna</strong> aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+      <a href="#" class="button">Go to Home</a>
+    </section>
+
+    <section class="card card--example">
+      <header class="card__header">
+        <h4>A card with a header :)</h4>
+      </header>
+
+      <div class="card__content">
+        <p>This is a card example with a <code>.card__header</code> element. Useful for show a more organized content.</p>
+      </div>
+    </section>
+
+    <section class="card card--example">
+      <header class="card__header card__header--inverted">
+        <h4>The inverted card header. Shocking.</h4>
+      </header>
+
+      <div class="card__content">
+        <p>This is a card example with a <code>.card__header</code> element and <code>.card__header--inverted</code> modifier. Useful for show some information with more highlight.</p>
+
+        <a href="#" class="button button--primary">Run to the hills</a>
+        <a href="#" class="button">Cancel</a>
+      </div>
+    </section>
+
+    <h4 class="mtl">Text Cards</h4>
+
+    <div class="columns">
+      <section class="card card__text card--example">
+        <h4>Simple</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt.</p>
+      </section>
+
+      <section class="card card__text card__text--primary card--example">
+        <h4>And Primary</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </section>
+
+      <section class="card card__text  card__text--inverted card--example">
+        <h4>Inverted</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </section>
+    </div>
+
+    <div class="columns">
+      <section class="card card__text card__text--ok card--example">
+        <h4>Yay! It worked</h4>
+        <p>Lorem ipsum doloctetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </section>
+
+      <section class="card card__text card__text--shadow card__text--bad card--example">
+        <h4>Something went wrong.</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt.</p>
+      </section>
+
+      <section class="card card__text card__text--warn card--example">
+        <h4>Oops, my warning</h4>
+      </section>
+    </div>
+
+  </div>
+</body>
+</html>
