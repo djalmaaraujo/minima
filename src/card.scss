@@ -88,20 +88,6 @@
   }
 }
 
-.card__text,
-.card__media {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-
 .card__text--primary,
 .card__text--inverted {
   box-shadow: none;

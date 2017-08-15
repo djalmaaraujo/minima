@@ -3,14 +3,13 @@ body {
   font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1.6em;
   font-weight: $font-weight-default;
-  letter-spacing: .01em;
   line-height: 1.6;
   margin: 0;
 }
 
 p {
   color: color(text);
-  margin: 0;
+  margin: 1em 0;
 }
 
 h1,
