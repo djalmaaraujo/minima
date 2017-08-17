@@ -25,10 +25,13 @@
   - [x] Paragraph
   - [x] Titles
 
-- [ ] Warnings
-  - [ ] Simple
-  - [ ] Success
-  - [ ] Failure
+- [x] Alerts
+  - [x] Simple
+  - [x] Primary
+  - [x] Ok
+  - [x] Bad
+  - [x] Warning
+  - [x] With custom content
 
 - [ ] Lists
   - [ ] Simple (just text)
