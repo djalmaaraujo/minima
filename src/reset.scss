@@ -10,3 +10,19 @@ figure {
   margin: 0;
   padding: 0;
 }
+
+::selection {
+  background: color(primary);
+  color: color(light);
+  text-shadow: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  box-sizing: content-box;
+  height: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  overflow: visible;
+}

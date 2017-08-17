@@ -21,6 +21,7 @@ $button-colors: (
 );
 
 $card-colors: $button-colors;
+$alert-colors: $button-colors;
 
 @function color($key) {
   @return map-get($colors, $key);

@@ -1,0 +1,42 @@
+.alert {
+  border: .1rem solid color(primary);
+  margin-bottom: 1rem;
+  padding: $sz-md;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: color(primary);
+    font-size: 2rem;
+  }
+
+  p {
+    color: color(primary);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// alertings Colored
+@each $name, $color in $alert-colors {
+  .alert--#{$name} {
+    background-color: color($name);
+    border-color: transparent;
+    color: color(light);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      color: color(light);
+    }
+  }
+}
