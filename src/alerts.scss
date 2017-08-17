@@ -22,7 +22,7 @@
   }
 }
 
-// alertings Colored
+// Alerts Colored
 @each $name, $color in $alert-colors {
   .alert--#{$name} {
     background-color: color($name);
