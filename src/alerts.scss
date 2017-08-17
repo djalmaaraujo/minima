@@ -40,3 +40,9 @@
     }
   }
 }
+
+// We might need to re-think if the primary color is not darker anymore.
+.alert--inverted hr,
+.alert--primary hr {
+  border-top-color: rgba(255, 255, 255, .2);
+}
